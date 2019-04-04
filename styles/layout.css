@@ -1,0 +1,247 @@
+/*
+HTML 5 Template Name: Basic 90
+File: Layout CSS
+Author: OS Templates
+Author URI: https://www.os-templates.com/
+Licence: <a href="https://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+
+body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#3BCC3B; background-color:#0E310E;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+code{font-weight:normal; font-style:normal; font-family:Georgia, "Times New Roman", Times, serif;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #58FF58; text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+	.button {background-color: #4CAF50; border: none; color: white; padding: 5px 20px; text-align: center; font-size: 16px; cursor: pointer;}
+	.button:hover {background-color: green;}
+
+	.hidden{display: none;}
+	.wide{width: 100%;}
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+address, article, aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}
+
+q{display:block; padding:0 10px 8px 10px; color:#3ED53E; background-color:#D0FFD0; font-style:italic; line-height:normal;}
+q:before{content:'" '; font-size:26px;}
+q:after{content:' "'; font-size:26px; line-height:0;}
+
+@font-face {
+   font-family: Calibri;
+   src: url(calibri.ttf);
+}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+
+.row1, .row1 a{color:#FFFFFF; background-color:#154815;}	/*COR TEXTO CABECALHO*/
+.row2{color:#1D631D; background-color:#FFFFFF;}	/*COR TEXTO CORPO*/
+.row2 a{color:#257A50; background-color:#FFFFFF;}	/*COR LINK CORPO*/
+.row2 a:hover{color:#3ED63E; background-color:#FFFFFF;}	/*COR LINK SELECIONADO*/
+.row3, .row3 a{color:#3BCC3B; background-color:#0E310E;}	/*COR RODAPE*/
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header, #container, #footer{display:block; width:960px; margin:0 auto;}
+
+nav ul{margin:0; padding:0; list-style:none;}
+
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:22px; font-weight:normal; font-style:italic; line-height:normal;}
+
+h3{display:block; float: right; padding: 8px 10px 0 0;}
+h6{height:200px; text-align: center;}
+
+address{font-style:normal;}
+
+blockquote, q{display:block; padding:8px 10px; color:#3ED53E; background-color:#D0FFD0; font-style:italic; line-height:normal;}
+blockquote:before, q:before{content:'" '; font-size:26px;}
+blockquote:after, q:after{content:' "'; font-size:26px; line-height:0;}
+
+form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+input, textarea, select{font-size:14px; font-family:"Arial",sans-serif;}
+
+	.left_wide, .center_wide, .right_wide{display:block; float:left; margin:0 20px 0 0;}
+	.left_wide{width:100px;}
+	.center_wide{width:720px;}
+	.right_wide{width:100px;}
+	.five_wide{width:960px; float:none; margin-right:0; clear:both;}
+
+.one_quarter, .two_quarter, .three_quarter, .four_quarter{display:block; float:left; margin:0 20px 0 0;}
+.one_quarter{width:225px;}
+.two_quarter{width:470px;}
+.three_quarter{width:715px;}
+.four_quarter{width:960px; float:none; margin-right:0; clear:both;}
+
+.one_third, .two_third, .three_third{display:block; float:left; margin:0 30px 0 0;}
+.one_third{width:300px;}
+.two_third{width:630px;}
+.three_third{width:960px; float:none; margin-right:0; clear:both;}
+
+.lastbox{margin-right:0;}
+
+	/*----------------------------------------------Banner Classes---------------------------------------*/
+  .dark{background-color:#0E310E;}
+	.light{background-color:#257A50;}
+
+	.upperinline{display:inline; text-transform:uppercase;}
+	.messenge{font-family:Arial; font-size:16px; padding: 6px 6px; margin: 0px 0px 20px 0px; height: 100px;}
+	.tab{padding-left: 40px;}
+
+	/*----------------------------------------------Grid---------------------------------------*/
+	.one{width:8%;}
+	.two{width:16%;}
+	.three{width:24%;}
+	.four{width:32%;}
+	.five{width:40%;}
+	.six{width:48%;}
+	.seven{width:56%;}
+	.eight{width:64%;}
+	.nine{width:72%;}
+	.ten{width:80%;}
+	.eleven{width:88%;}
+	.twelve{width:100%;}
+
+/*----------------------------------------------Header-------------------------------------*/
+
+#header{padding:20px 0;}
+#header table{vertical-align: bottom;}
+#header table td{padding: 0 10px 0 10px;}
+
+#header #hgroup{float:left; margin:0 0 20px 0;}
+#header #hgroup h1, #header #hgroup h2{font-weight:normal; font-style:normal; text-transform:none;}
+#header #hgroup h1{font-size:36px;}
+#header #hgroup h2{font-size:13px;}
+
+#header form{display:block; float:right; width:420px; margin:20px; padding:0;}
+#header form input{display:block; float:left; width:100px; margin:5px 5px; padding:5px; color:#C0BAB6; background-color:#0E310E; border:1px solid #666666;}
+#header form #sf_submit{display:block; float: right; width:120px; height: 28px; font-size:12px; font-weight:bold; text-transform:uppercase; color:#FFFFFF; background-color:#257A50; border:none; cursor:pointer;}
+
+/* ------dropdown menu-----*/
+#header #nav{display:block; width:100%; margin:0; padding:0; color:#C0BAB6; background-color:#0E310E; clear:both;}
+#header #nav #menu {width: 100%; margin: 0; padding: 10px 0 0 0; list-style: none;}
+#header #nav #menu li {float: left; padding: 0 0 10px 0; position: relative;}
+#header #nav #menu a {float: left; height: 25px; padding: 0 25px; color: #FFFFFF;/*cor do texto*/ background-color:#0E310E;  text-transform: uppercase; font: bold 14px/25px Arial, Helvetica; text-decoration: none;}
+#header #nav #menu li:hover > a {color: #FFFFFF;/*cor do texto selecionado*/}
+#header #nav #menu li:hover > ul {display: block;}
+/* ------Sub-menu-----*/
+#header #nav #menu ul {list-style: none; margin: 0; padding: 0; display: none; position: absolute; top: 35px; left: 0; z-index: 99999; -moz-border-radius: 5px;}
+#header #nav #menu ul li {float: none; margin: 0; padding: 0; display: block;}
+#header #nav #menu ul a {padding: 10px; height: auto; line-height: 1; display: block; white-space: nowrap; float: none; text-transform: uppercase;}
+#header #nav #menu ul a:hover {background-color: #1D631D; color: #FFFFFF}
+/* ------Clear floated elements-----*/
+#header #nav #menu:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/*----------------------------------------------Content Area-------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+
+
+#container{padding:30px 0;}
+#container section{display:block; margin-bottom:30px; padding:0;}
+#container .last{margin:0;}
+#container .more{text-align:right;}
+
+/* ------Bloco com o mapa-----*/
+
+#container #slider{width:100%;}
+#container #slider figure{}
+#container #slider figure img{float:right; width:630px; height:300px;}
+#container #slider figure figcaption{display:block; float:left; width:290px; height:260px; padding:20px; overflow:hidden; color:#FFFFFF; background-color:#1D631D; line-height:1.6em;}
+#container #slider figure figcaption a{color:#00FF00; background-color:#1D631D;}
+#container #slider figure h2{font-size:42px; font-weight:normal; font-style:italic; text-transform:none;}
+#container #slider figure footer{}
+
+	/* ------Bloco das categorias-----*/
+
+#container #intro{width:100%; margin-bottom:0px; padding-bottom:20px; /*border-bottom:1px solid #58FF58;*/}
+#container #intro section{width:100%;}
+#container #intro section article{}
+#container #intro section article h2.comment{display:block; width:100%; margin: 10px 0 15px 0; clear:both; text-align:center; text-transform:uppercase; font-style:normal; font-weight:bold;}
+#container #intro section article p.comment{display:block; width:100%; margin-top:10px; clear:both; text-align:center; font-weight:bold;}
+#container #intro section article figure ul{display:block; width:100%; margin:0; padding:0; list-style:none;}
+#container #intro section article figure ul li{display:inline-block; float:left; margin:0 25px 0 0;}
+#container #intro section article figure ul li.last{margin:0;}
+#container #intro section article figure ul li.center{margin:0 0 0 20px;}
+#container #intro section article figure ul li img{margin:0; padding:4px; border:1px solid #58FF58;}
+#container #intro section article figure figcaption{display:block; width:100%; margin-top:20px; clear:both; text-align:center; text-transform:uppercase; font-weight:bold;}
+
+/* ------Tabelas de Exibicao dos imoveis-----*/
+
+#container #banner section article ul{list-style:none;}
+#container #banner section article ul li{margin-bottom:30px;}
+#container #banner section article ul li table{margin: 0 auto 10px auto; padding:10px; border-spacing: 6px; background-color: #0E310E; color: white; font-size:16px; font-family: Calibri, "Arial", sans-serif;}
+#container #banner section article ul li table tr{}
+#container #banner section article ul li table tr td{padding:5px 5px 5px 10px; text-align:left; border-color:black;}
+#container #banner section article ul li table tr td b{float:right}
+#container #banner section article ul li table tr td a{background-color: transparent; color: yellow;}
+
+/* ------Conditional form-----*/
+
+#container #formulario #conditional .form-group button,
+#container #formulario #conditional form input.form-control,
+#container #formulario #conditional form textarea.form-control,
+#container #formulario #conditional form select.form-control{display: table-cell; -webkit-border-radius: 0 !important;-moz-border-radius: 0; border-radius: 0;}
+
+#container #formulario #conditional .formden_header h2,
+#container #formulario #conditional .formden_header p,
+#container #formulario #conditional form{font-family: Arial, Helvetica, sans-serif; color: black;}
+
+#container #formulario #conditional .form-group{padding-bottom: 10px;}
+#container #formulario #conditional .form-control:focus {border-color: #66afe9; -webkit-box-shadow: none; box-shadow: none;}
+#container #formulario #conditional .has-error .form-control:focus{-webkit-box-shadow: none; box-shadow: none;}
+#container #formulario #conditional .asteriskField{color: red;}
+#container #formulario #conditional form .input-group-addon {color:#555555; background-color: #ffffff; border-radius: 0px; padding-left:12px}
+
+
+	/* ------extra do Conditional form-----*/
+	/*#container #formulario #conditional form select.form-control{display: table-cell; -webkit-border-radius: 0 !important;-moz-border-radius: 0; border-radius: 0;}*/
+	#container #formulario select{padding:2px 10px; border:1px solid #666666;}
+	#container #formulario table {background-color: #AAFFAA; margin: auto; padding: 15px 15px 15px 15px; border:1px solid #000000}
+	#container #formulario table tr{padding: 0 0 0 0;}
+	#container #formulario table tr td{width:110px;}
+	#container #formulario ul, #container #mensagem ul{list-style:none;}
+
+	#container #formulario #vinculo_form table{padding: 0; text-align:center;}
+	#container #formulario #vinculo_form li{}
+
+	/* ------Homepage Content-----*/
+
+	#container #homepage{display:block; width:100%; line-height:1.6em;}
+	#container #homepage section{margin-bottom:0;}
+	#container #homepage section h2.title{margin:0 0 25px 0; padding:0 0 8px 0; font-size:16px; font-weight:bold; text-transform:uppercase;}
+	#container #homepage section footer{clear:both;}
+
+	/* ------Blogposts-----*/
+
+	#container #homepage section article header h2{font-size:13px; font-weight:bold;}
+	#container #homepage section article address, #container #homepage section article time{font-size:10px; font-style:normal;}
+	#container #homepage section article footer{text-align:left;}
+
+	/* ------Quick Links-----*/
+
+	#container #homepage section nav li{margin:0 0 8px 0; padding:0 0 5px 0; border-bottom:1px solid #58FF58;}
+	#container #homepage section nav li.last{margin:0;}
+	#container #homepage section nav a{padding:0 0 0 10px; background:url("../images/arrow.gif") left center no-repeat;}
+
+	/*----------------------------------------------Footer-------------------------------------*/
+
+	#footer{padding:20px 0;}
+	#footer p{margin:0; padding:0;}
